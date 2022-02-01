@@ -1,1 +1,13 @@
-<p>Here goes the navbar!</p>
+<div class="navbar-container">
+    <img class="logo" src="https://via.placeholder.com/150x50" alt="placeholder">
+    <div class="menu-icon-container">
+        <i class="fas fa-bars menu-icon" (click)="toogleNav()"></i>
+    </div>
+    <div class="navbar" [ngClass]="navDisplay ? 'navbar-responsive' : 'navbar-responsive-none'">
+        <a>Le Musée</a>
+        <a>Infos pratiques</a>
+        <a>Les collections</a>
+        <a>L'association</a>
+        <a>&Agrave; voir autour</a>
+    </div>
+</div>

@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  navDisplay: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toogleNav(){
+    this.navDisplay = !this.navDisplay
   }
 
 }
