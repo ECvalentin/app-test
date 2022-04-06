@@ -1,4 +1,4 @@
-<div class="navbar-container">
+<!-- <div class="navbar-container">
     <img class="logo" src="https://via.placeholder.com/150x50" alt="placeholder">
     <div class="menu-icon-container">
         <i class="fas fa-bars menu-icon" (click)="toogleNav()"></i>
@@ -10,4 +10,32 @@
         <a>L'association</a>
         <a>&Agrave; voir autour</a>
     </div>
-</div>
+</div> -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#"></a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/">Le Musée</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/infos-pratiques">Infos pratiques</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/first-component">Les collections</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/first-component">L'association</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/first-component">&Agrave; voir autour</a>
+          </li>
+        </ul>    
+      </div>
+    </div>
+  </nav>
