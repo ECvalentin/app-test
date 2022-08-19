@@ -7,6 +7,12 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { InfoPageComponent } from './components/info-page/info-page.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CollectionsPageComponent } from './components/collections-page/collections-page.component';
+import { LassociationPageComponent } from './components/lassociation-page/lassociation-page.component';
+import { VoirAutourPageComponent } from './components/voir-autour-page/voir-autour-page.component';
+import { MentionsLegalesPageComponent } from './components/mentions-legales-page/mentions-legales-page.component';
+import { PlanSitePageComponent } from './components/plan-site-page/plan-site-page.component';
+import { AProposPageComponent } from './components/a-propos-page/a-propos-page.component';
 
 
 @NgModule({
@@ -16,6 +22,12 @@ import { FooterComponent } from './components/footer/footer.component';
     HomepageComponent,
     InfoPageComponent,
     FooterComponent,
+    CollectionsPageComponent,
+    LassociationPageComponent,
+    VoirAutourPageComponent,
+    MentionsLegalesPageComponent,
+    PlanSitePageComponent,
+    AProposPageComponent,
 
   ],
   imports: [

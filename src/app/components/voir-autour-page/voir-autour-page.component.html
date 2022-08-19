@@ -1,0 +1,32 @@
+<div class="container-fluid mt-3 mt-md-5 mb-3 mb-md-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3" *ngFor="let item of data_list">
+                <div class="card" style="width: 100%;">
+                    <img src="" class="card-img-top" alt="image{{item}}" style="min-height:180px;height: auto;width: 100%;background-color:grey">
+                    <div class="card-body">
+                      <h5 class="card-title">{{item}}</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a class="btn btn-primary" data-bs-toggle="modal" href="#Modal{{item}}" role="button">En savoir plus</a>
+                    </div>
+                </div>
+                <div class="modal fade" id="Modal{{item}}" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalToggleLabel">Modal {{item}}</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Show a second modal and hide this one with the button below.
+                        </div>
+                        <div class="modal-footer">
+                          <button class="btn btn-primary" href="#">Open second modal</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
